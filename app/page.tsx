@@ -1,10 +1,9 @@
 // import necessary modules and components
-import { Link } from "@nextui-org/link";
-import { button as buttonStyles } from "@nextui-org/theme";
-import { siteConfig } from "@/config/site";
-import { title, subtitle } from "@/components/primitives";
 import DesignCom from "@/components/DesignCom";
 import MeetTeam from "@/components/MeetTeam";
+import { subtitle, title } from "@/components/primitives";
+import { Link } from "@nextui-org/link";
+import { button as buttonStyles } from "@nextui-org/theme";
 
 export default function Home() {
   return (
@@ -23,8 +22,7 @@ export default function Home() {
 
       <div className="flex gap-3">
         <Link
-          isExternal
-          href={siteConfig.links.docs}
+          href="#tteam"
           className={buttonStyles({
             color: "primary",
             radius: "full",
@@ -34,7 +32,10 @@ export default function Home() {
           Meet Our Team
         </Link>
       </div>
-      <div className="inline-block max-w-lg text-center mt-[6rem] justify-center" id='aabout'>
+      <div
+        className="inline-block max-w-lg text-center mt-[6rem] justify-center"
+        id="aabout"
+      >
         <h1
           className={`${title()} text-6xl text-blue-800 md:text-9xl font-black `}
         >
@@ -83,7 +84,7 @@ export default function Home() {
         </div>
       </div>
       <DesignCom />
-      <MeetTeam/>
+      <MeetTeam />
     </section>
   );
 }

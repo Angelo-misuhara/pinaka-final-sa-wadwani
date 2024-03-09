@@ -4,9 +4,7 @@ import { button as buttonStyles } from "@nextui-org/theme";
 const DesignCom = () => {
   return (
     <div className="inline-block max-w-lg text-center mt-[6rem] justify-center">
-      <h1
-        className={`${title()} text-6xl text-yellow-800 md:text-9xl font-black `}
-      >
+      <h1 className={`${title()} text-6xl text-yellow-800  font-black `}>
         Recent Designs and Transactions
       </h1>
       <div
@@ -33,8 +31,7 @@ const DesignCom = () => {
       </div>
       <div className="flex gap-3 justify-center items-center py-4">
         <Link
-          isExternal
-          href="/"
+          href="/designs"
           className={buttonStyles({
             color: "primary",
             radius: "full",

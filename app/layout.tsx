@@ -33,7 +33,7 @@ export default function RootLayout({
           fontSans.variable
         )}
       >
-        <Providers themeProps={{ attribute: "class", defaultTheme: "dark" }}>
+        <Providers themeProps={{ attribute: "class", defaultTheme: "light" }}>
           <div className="relative flex flex-col h-screen">
             <Navbar />
             <main className="container mx-auto max-w-7xl pt-16 px-6 flex-grow">
@@ -46,7 +46,7 @@ export default function RootLayout({
                 href="https://nextui-docs-v2.vercel.app?utm_source=next-app-template"
                 title="nextui.org homepage"
               > */}
-              <span className="text-default-600">Wadhwani : </span>
+              <span className="text-default-600">Wadhwani:</span>
               <p className="text-primary"> InkersMNL</p>
               {/* </Link> */}
             </footer>
