@@ -43,9 +43,7 @@ export default function Home() {
           Welcome to InkersMNL, your one-stop destination for exceptional logo
           design and top-notch printing services. With a rich history in the
           artistry of print, we combine creativity with commitment to deliver
-          standout designs and high-quality prints. Explore the seamless synergy
-          of our logo design expertise and precision printing solutions, where
-          each project receives the utmost care. Elevate your brand with
+          standout designs and high-quality prints.Elevate your brand with
           InkersMNL – where creativity meets commitment, and every design is
           brought to life with vibrant colors and crisp details.
         </h2>
