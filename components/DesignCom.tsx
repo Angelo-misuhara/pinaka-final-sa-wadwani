@@ -1,5 +1,5 @@
 import { subtitle, title } from "@/components/primitives";
-import { Image } from "@nextui-org/react";
+
 const DesignCom = () => {
   return (
     <div className="inline-block max-w-lg text-center mt-[6rem] justify-center">
@@ -9,11 +9,8 @@ const DesignCom = () => {
         Recent Designs and Transactions
       </h1>
       <div className={subtitle({ class: "mt-4 " })}>
-        <Image
-          isZoomed
-          width={240}
-          alt="NextUI Fruit Image with Zoom"
-          src="/images/transaction1.jpg"
+        <img
+          src='/images/transaction1.jpg'
         />
       </div>
     </div>
