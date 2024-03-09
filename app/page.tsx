@@ -39,7 +39,7 @@ export default function Home() {
         >
           About
         </h1>
-        <h2 className={subtitle({ class: "mt-4  " })}>
+        <h2 className={subtitle({ class: "mt-4   " })}>
           Welcome to InkersMNL, your one-stop destination for exceptional logo
           design and top-notch printing services. With a rich history in the
           artistry of print, we combine creativity with commitment to deliver
