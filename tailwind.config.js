@@ -1,5 +1,5 @@
 import { nextui } from '@nextui-org/theme'
-const flowbitePlugin = require('flowbite/plugin');
+
 
 /** @type {import('tailwindcss').Config} */
 module.exports = {
