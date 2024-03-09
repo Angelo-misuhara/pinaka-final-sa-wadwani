@@ -1,6 +1,6 @@
 import React from "react";
 import { title, subtitle } from "@/components/primitives";
-import { Image } from "@nextui-org/react";
+// import { Image } from "@nextui-org/react";
 const DesignCom = () => {
   return (
     <div className="inline-block max-w-lg text-center mt-[6rem] justify-center">
