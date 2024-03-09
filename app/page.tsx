@@ -53,7 +53,7 @@ export default function Home() {
         <h1
           className={`${title()} text-6xl text-red-800 md:text-9xl font-black `}
         >
-          why us?
+          Why choose us?
         </h1>
         <div className="mt-6 flex flex-col gap-3  text-start  w-[20rem] md:w-[30em]">
           <div className=" flex flex-col gap-2">

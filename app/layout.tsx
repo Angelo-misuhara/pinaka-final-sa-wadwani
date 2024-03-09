@@ -47,7 +47,7 @@ export default function RootLayout({
                 title="nextui.org homepage"
               > */}
               <span className="text-default-600">Wadhwani : </span>
-              <p className="text-primary">InkersMNL</p>
+              <p className="text-primary"> InkersMNL</p>
               {/* </Link> */}
             </footer>
           </div>
