@@ -21,14 +21,14 @@ const DesignCom = () => {
           alt="Transaction Image 1"
         />
         <img
-          className="md:w-[20rem] w-[15rem] rounded-lg h-auto transition-transform transform scale-100 hover:scale-105"
-          src="/images/transaction2.png"
-          alt="Transaction Image 2"
-        />
-        <img
           className="md:w-[30rem] w-[15rem] rounded-lg h-auto transition-transform transform scale-100 hover:scale-105"
           src="/images/transaction3.png"
           alt="Transaction Image 3"
+        />
+        <img
+          className="md:w-[20rem] w-[15rem] rounded-lg h-auto transition-transform transform scale-100 hover:scale-105"
+          src="/images/transaction2.png"
+          alt="Transaction Image 2"
         />
       </div>
       <div className="flex gap-3 justify-center items-center py-4">

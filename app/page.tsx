@@ -4,12 +4,13 @@ import { button as buttonStyles } from "@nextui-org/theme";
 import { siteConfig } from "@/config/site";
 import { title, subtitle } from "@/components/primitives";
 import DesignCom from "@/components/DesignCom";
+import MeetTeam from "@/components/MeetTeam";
 
 export default function Home() {
   return (
     <section className="flex flex-col items-center justify-center gap-4 py-8 md:py-10">
       <div className="inline-block max-w-lg text-center justify-center">
-        <h1 className={`${title()} text-6xl md:text-9xl font-black `}>
+        <h1 className={`${title()} text-6xl lg:text-6xl font-black  `}>
           Inkers
           <span className="text-blue-800">M</span>
           <span className="text-red-800">N</span>
@@ -33,7 +34,7 @@ export default function Home() {
           Meet Our Team
         </Link>
       </div>
-      <div className="inline-block max-w-lg text-center mt-[6rem] justify-center">
+      <div className="inline-block max-w-lg text-center mt-[6rem] justify-center" id='aabout'>
         <h1
           className={`${title()} text-6xl text-blue-800 md:text-9xl font-black `}
         >
@@ -82,6 +83,7 @@ export default function Home() {
         </div>
       </div>
       <DesignCom />
+      <MeetTeam/>
     </section>
   );
 }
