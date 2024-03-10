@@ -63,7 +63,7 @@ export const Navbar = () => {
             isExternal
             as={Link}
             className="text-sm font-normal text-default-600 bg-default-100"
-            href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJqTfVQfLgWDrZrNVlXHdkkLKSwNVmrdvztKLdBxdtmJtLtxpbSKGmFLLdgnfTwHrjZgrrL"
+            href="https://mail.google.com/mail/u/0/?view=cm&fs=1&tf=1&to=yocorangelo18@gmail.com"
             startContent={<HeartFilledIcon className="text-danger" />}
             variant="flat"
           >
