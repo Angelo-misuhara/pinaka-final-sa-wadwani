@@ -59,7 +59,7 @@ const MeetTeam = () => {
           startContent={<HeartFilledIcon className="text-danger" />}
           variant="flat"
         >
-          Transform Your Brand Today!
+         Contact us!
         </Button>
       </div>
     </div>
